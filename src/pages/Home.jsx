@@ -1,4 +1,4 @@
-import GameCard from '../components/GameCard'
+import EsportesCard from '../components/EsportesCard'
 import Basquete from '../assets/basquete.avif'
 import Bola from "../assets/bola.avif"
 import Chuteira from "../assets/chuteira.webp"
@@ -20,7 +20,7 @@ const Home = () => {
 
       <section className="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-6">
         {games.map((game) => (
-          <GameCard
+          <EsportesCard
             key={game.id}
             titulo={game.titulo}
             preco={game.preco}
